@@ -1,0 +1,40 @@
+.tracuu{
+   width: 1100px;
+   margin: auto;
+   padding-bottom: 60px;
+}
+.thongtin, table {
+   width: 100%
+}
+table{
+   border-collapse: collapse;
+   text-align: center;
+   border:1px solid gray;
+
+
+}
+th{
+   color: white;
+   background-color: #106470;
+}
+.search{
+   background-color: #106470;
+   padding: 12px;
+
+}
+.search input{
+   padding: 8px;
+   margin-right: 16px;
+   outline: none;
+}
+.search a{
+   color: white;
+   text-decoration: none;
+   padding: 0 12px;
+   line-height: 60px;
+}
+.search a:hover{
+   background-color: white;
+   color: #106470;
+
+}

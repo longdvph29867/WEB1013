@@ -1,0 +1,85 @@
+.lich-tong{
+    width: 1100px;
+    margin: 50px auto;
+    background-color: #439ea5;
+    border: 2px dotted #439ea5;
+    
+}
+.lich-top{
+    width: 100%;
+    display: flex;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+h2,h3{
+    font-weight: bold;
+    color: #fff;
+}
+.lich-left{
+    width: 20%;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+.lich-left h3:hover{
+    color: red;
+}
+.lich-right{
+    width: 20%;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.lich-right h3:hover{
+    color: red;
+}
+.lich-mid{
+    width: 60%;
+    border-top: 1px solid #fff;
+}
+.lich-mid h2{
+    margin-top: 60px;
+}
+.lich-mid p{
+    color: #fff;
+    font-size: 15px;
+}
+.lich-bot{
+    display: flex;
+    width: 100%;
+}
+.lich-bot div{
+    width: 15%;
+    border: 1px solid #fff;
+
+}
+.lich-bot div p{
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+.lich-text{
+    display: flex;
+    width: 100%;
+    height: 28px;
+}
+.lich-text div{
+    width: 15%;
+    border: 1px solid #fff;
+
+}
+.lich-text div p{
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    
+}
+
+

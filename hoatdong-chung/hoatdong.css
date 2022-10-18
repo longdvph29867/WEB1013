@@ -1,0 +1,76 @@
+.hoatdong-list,
+.hoatdong-container {
+    margin-top: 24px;
+    margin-left: 24px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.slide-img-hoatdong {
+    display: flex;
+    width: 876px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.slide-img-hoatdong > img {
+    width: 876px;
+    height: 520px;
+    object-fit: cover;
+
+}
+
+.hoatdong-img-text {
+    position: absolute;
+    bottom: 0%;
+    padding: 22px;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.hoatdong-img-text > h3 {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.hoatdong-img-text > p {
+    margin: 0;
+}
+
+/* list hoat dong */
+.hoatdong-list {
+    height: 1300px;
+}
+
+
+.hoatdong-item {
+    display: flex;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+.hoatdong-item img {
+    width: 25%;
+    height: 138px;
+    object-fit: cover;
+}
+.hoatdong-item-text {
+    margin-left: 24px;
+}
+.hoatdong-item h4 {
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hoatdong-item:hover h4{
+    color: #19777e;
+}
+.hoatdong-item p {
+    margin: 0;
+    color: #6f6e6e;
+    text-align: justify;
+}
+
+
+
+

@@ -1,0 +1,290 @@
+
+
+.noi-dung-trang-chu {
+    width: 1100px;
+    margin: auto;
+}
+/* -------end nav------ */
+article{
+    
+}
+.chaomung{
+    margin-bottom: 5px;
+    color: red;
+    font-style: oblique;
+    float: right;
+    width: 70%;
+    padding: 5px 0px;
+}
+.chuchay{
+    height: 30px;
+    width: 100%;
+}
+.anhduoinav{
+    width: 100%;
+    height: 50px;
+    float: right;
+    background-image: url();
+}
+.ngaythang{
+    float: left;
+    padding: 5px 0px;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+/* -----list-img------ */
+.banner{
+    margin:  20px 0;
+}
+
+.listimg img{
+
+
+}
+.listimg #text-in{
+    padding-left: 16px;
+    line-height: 30px;
+    width: 490px;
+    margin: 0 0px; 
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #439ea5;
+    color: #fff;
+    position: absolute;
+    margin-top: -40px;
+    cursor: pointer;
+    
+}
+.listimg #text-in:hover{
+    opacity: .8;
+}
+.list-left{
+   width: 70%;
+   margin-right: 20px;
+   
+}
+
+.list-left img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #439ea5;
+    display: block;
+}
+.gt{
+    position: relative;
+}
+
+/* -------list--------- */
+        /* list-text-------- */
+.list-text{
+    
+    width: 30%;
+}
+.list-text-head{
+    border: 3px solid #439ea5;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #439ea5;
+    color: #fff;
+}
+.list-text-body{
+    border: 3px solid #439ea5;
+    border-radius:0px 0px 5px 5px;
+    padding-bottom: 33px;
+}
+.list-img {
+    padding: 4px 6px;
+    text-indent: 15px;
+}
+.list-img a{
+    font-weight: bold;
+    line-height: 30px;
+
+    color: #222;
+}
+.list-img a:hover{
+    color: red;
+}
+
+.banner-in{
+    width: 100%;
+}
+/* --------end-list------- */
+
+
+/* -----menu-tong------- */
+.menu-tong{
+    
+}
+.menu-tong-1{
+    width: 100%;
+    height: auto;
+}
+.menu-tong .menu-tong-1 .menu-img{
+    width: 25%;
+    padding: 0 8px;
+    position: relative;
+    margin-bottom: 16px;
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+.menu-tong .menu-tong-1 .menu-img:hover{
+    /* animation: zoom-in-zoom-out 1s ease ; */
+    transform: scale(1.1);
+}
+.menu-tong .menu-tong-1 .menu-img:hover img {
+    box-shadow: 0 0 5px red;
+
+}
+
+.menu-tong .menu-tong-1 .menu-img img{
+    width: 100%;
+    display: block;
+    box-shadow: 0 0 4px grey;
+}
+.menu-tong .menu-tong-1 .menu-img a{
+    position: absolute;
+    line-height: 36px;
+    width: 130px;
+    bottom: 0;
+    left: 8px;
+    border: 2px solid #439ea5;
+    background-color: #439ea5;
+    color: #fff;
+    border-radius: 0px 15px 0 0px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+.menu-tong .menu-tong-1 .menu-img a:hover{
+    color: red;
+}
+/* ------end-menu-tong----- */
+
+/* -------box-tong------- */
+.box-tong{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+.box-tong .box-tong-1{
+    width: 100%;
+    display: flex;
+
+}
+.box-tong .box-tong-1 .box-tong-2,.box-tong .box-tong-1 .box-tong-3{
+    width: 50%;
+
+}
+.box-tong-2{
+    
+}
+h5{
+    font-weight: bold;
+    color: #222;
+    font-size: 18px;
+    margin:  4px 0;
+}
+.border-box{
+    border: 1px dotted #439ea5;
+    border-radius: 0px 5px 5px 5px;
+    height: 284px;
+    width: 97%;
+    padding: 10px;
+
+}
+.border-box a{
+    font-weight: bold;
+    color: #222;
+}
+.border-box a:hover{
+    color: red;
+}
+.box-text{
+    width: 180px;
+    border-radius: 0px 15px 0px 0px;
+    background-color: #439ea5;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.box-tong-3{
+    
+}
+.box-in2 {
+    margin-top: 12px;
+}
+#box1-2{
+    margin-top: 10px;
+}
+
+
+
+/* -------end-box-tong------ */
+
+/* ------thuvien------- */
+
+/* -----footer----- */
+footer{
+    float: left;
+    width: 100%;
+    min-height: 150px;
+    background-color: #439ea5;
+    color: white;
+    margin-top: 10px;
+}
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 50%;
+    margin: 0 auto;
+}
+.boxfooter1{
+    width: 18%;
+    float: left;
+}
+.boxfooter2{
+    width: 28%;
+    float: left;
+    
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.mrr2{
+    margin-right: 2%;
+
+}
+.boxfooter3{
+    width: 50%;
+    float: left;
+}
+.textcenter{
+    text-align: center;
+}
+.mrb10{
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+h4{
+    
+    font-weight: bold;
+}
+h3{
+    margin-left: 40px;
+}
+
+/* ------end footer------ */

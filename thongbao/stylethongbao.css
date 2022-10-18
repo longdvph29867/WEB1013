@@ -1,0 +1,164 @@
+.navbar-nav.navbar-right .btn { 
+    position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
+    .nav-collapse>li { float: right; }
+    .btn.btn-circle { border-radius: 50px; }
+    .btn.btn-outline { background-color: transparent; }
+    
+    
+    
+    #navbar-collapse-3 ul li{
+        position: relative;
+    }
+    #navbar-collapse-3 ul ul{
+        position: absolute;
+        display: none;
+    }
+    #navbar-collapse-3 ul li:hover ul{
+        display: block;
+        color: red;
+    }
+    #navbar-collapse-3 ul ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 150px;
+        background-color: #439ea5;
+        box-shadow: 0 0 1px #222;
+        
+    }
+    #navbar-collapse-3 ul li a, .navbar-header .navbar-brand{ 
+        color: white;
+    }
+    .navbar-collapse-3 ul ul a{
+        line-height: 30px;
+        color: red;
+        text-decoration: none;
+        font-size: larger;
+    }
+    nav #navbar-collapse-3 ul li ul .box-menu2{
+        display: none;
+    }
+    nav #navbar-collapse-3 ul li ul li:hover .box-menu2{
+        display: grid;
+        margin-left: 148px;
+        margin-top: -20px;
+        border-radius: 0 0 3px gray;
+        color: red;
+    }
+    .navbar-inverse {
+        background-color:  #439ea5;
+        border-color:  #439ea5;
+    }
+    #navbar-collapse-3 ul ul ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 150px;
+        background-color: #439ea5;
+        box-shadow: 0 0 1px #222;
+    }
+    /* -----end-nav----- */
+
+    /* -----tintuctong---- */
+    .tintuc-tong{
+        margin: auto;
+        width: 1100px;
+    }
+    .tintuc-left{
+        width: 69%;
+        float: left;
+    }
+    /* ------right----- */
+    .tintuc-right{
+        width: 30%;
+        float: right;
+    }
+    .right-text{
+        border: 1px solid #439ea5;
+        border-radius: 0px 15px 0px 0px;
+        background-color: #439ea5;
+        color: #fff;
+        width: 160px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .right-in{
+        border: 1px dotted #439ea5;
+        border-radius: 0px 5px 5px 5px;
+    }
+    .right-in-box{
+        border: 1px solid #439ea5;
+        line-height: 30px;
+    }
+    .right-in-box a{
+        color: #fff;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .right-in-box a:hover{
+        color: red;
+    }
+    .inbox1{
+        background: #fff;
+    }
+    .inbox1 a{
+        color: #222;
+    }
+    .inbox2{
+        background: #439ea5;
+    }
+    .inbox1,.inbox2{
+        margin: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .doc1{
+        margin: 5px 5px 5px 5px;
+        border: none;
+    }
+    .doc1 a{
+        color: #222;
+    }
+.tintuc-right-2{
+    margin-top: 40px;
+}  
+/* -------end-right------ */
+
+/* ------left------ */
+.tintuc-left-text a{
+    color: #222;
+    font-weight: bold;  
+}
+.tintuc-left-text a:hover{
+    color: red;
+}
+.left-text{
+    border-radius: 0px 0px 0px 0px;
+}
+.left-body{
+    width: 100%;
+    border-top: 2px solid #439ea5;
+}
+.test1,.test2{
+    display: inline;
+}
+.left-body-in .test1{
+width: 150px;
+}
+.left-body-in .test2{
+width: 75%;
+height: 100px;
+float: right;
+}
+.test2 a{
+    font-weight: bold;
+    color: #222;
+}
+.test2 a:hover{
+    color: red;
+}
+/* -----end-left----- */
+.inbox1{
+    position: relative;
+}
